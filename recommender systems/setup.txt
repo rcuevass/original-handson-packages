@@ -1,0 +1,5 @@
+conda create --name recsys --clone base
+conda activate recsys
+python -m ipykernel install --user --name=recsys
+# taken from https://pytorch.org/get-started/locally/
+conda install pytorch torchvision torchaudio cpuonly -c pytorch
